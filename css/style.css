@@ -1,0 +1,413 @@
+
+*, div{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol {
+    list-style: none;
+}
+a,a:hover {
+    text-decoration: none;
+}
+:root {
+    --primary_text_font:  'Roboto', sans-serif;
+    --primary_heading_color: #0149a1;
+    --primary_para_text: #959595;
+    --sub_heading_color: #5d6981;
+}
+.container {
+    width: 70%;
+}
+/*========== header area start ==============*/
+.navbar-brand {
+    font-family: var(--primary_text_font);
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--primary_heading_color);
+}
+#navbarNav {
+    padding-left: 200px;
+}
+.navbar-brand span {
+    font-family: var(--primary_text_font);
+    font-size: 36px;
+    font-weight: 300;
+    color: var(--primary_heading_color);
+}
+.navbar-nav .nav-item {
+    padding: 5px;
+    margin: 0 10px;
+}
+.navbar-nav .nav-item .nav-link {
+    font-family: var(--primary_text_font);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 6px 15px;
+    color: #5d6981;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    border: 1px solid var(--sub_heading_color);
+    border-radius: 25px;
+}
+.navbar-nav .nav-item .nav-link.header_icons {
+    color: #0149a1;
+    border: 1px solid #0149a1;
+    border-radius: 50%;
+}
+.navbar-nav .nav-item .nav-link.header_icons:hover {
+    border: 1px solid #28aae1;
+}
+.navbar-nav .nav-item .nav-link.header_icons:hover i {
+    color: #28aae1;
+}
+
+/*========== header area end ==================*/
+
+/*========== banner area start ================*/
+.banner_main {
+    padding-top: 130px;
+    text-align: center;
+}
+.banner_heading h2 {
+    font-family: var(--primary_text_font);
+    font-size: 72px;
+    font-weight: 700;
+    color: var(--primary_heading_color);
+}
+.banner_heading h4 {
+    font-family: var(--primary_text_font);
+    font-size: 36px;
+    font-weight: 300;
+    color: #5d6981;
+}
+.banner_button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+.banner_button a {
+    padding: 15px 30px;
+    background-color: #ff2d55;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 60px;
+    width: 230px;
+    border-radius: 50px;
+    text-align: center;
+}
+/*========== banner area end ==================*/
+
+/*========== service area start ================*/
+.service_content {
+    text-align: center;
+    padding-bottom: 130px;
+}
+.serv_desc h4 {
+    font-family: var(--primary_text_font);
+    font-size: 30px;
+    font-weight: 700;
+    color: #5d6981;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.serv_desc p {
+    font-family: var(--primary_text_font);
+    font-size: 18px;
+    font-weight: 300;
+    color: #7c8ca0;
+    padding: 0 20px;
+}
+/*========== service area end ==================*/
+
+/*========== extra area start ==================*/
+.extra {
+    background: url(../img/extra_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.extra_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 358px;
+    padding-bottom: 200px;
+}
+.extra_button a {
+    padding: 15px 30px;
+    background-color: var(--primary_heading_color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 60px;
+    width: 230px;
+    border-radius: 50px;
+    text-align: center;
+}
+/*========== extra area end ======================*/
+
+/*========== our work area start ==================*/
+.our_work {
+    background-color: var(--primary_heading_color);
+}
+.work_main {
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+.work_heading h2 {
+    font-family: var(--primary_text_font);
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+.work_heading h4 {
+    font-family: var(--primary_text_font);
+    font-size: 36px;
+    font-weight: 300;
+    color: #5483bb;
+    text-align: center;
+}
+.work_content {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.work_desc p {
+    font-family: var(--primary_text_font);
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.work_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work_button a {
+    padding: 15px 30px;
+    background-color: #fff;
+    color: var(--primary_heading_color);
+    font-size: 18px;
+    font-weight: 700;
+    height: 60px;
+    width: 230px;
+    border-radius: 50px;
+    text-align: center;
+}
+/*========== our work area end ===================*/
+
+/*========== testmonial area start ===============*/
+
+.testmonial_main {
+    padding-top: 94px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.test_img {
+    display: inline-block;
+}
+
+.testi_content h4 {
+    font-family: var(--primary_text_font);
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    color: #7c8ca0;
+    padding: 0 26%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.testi_content p {
+    font-family: var(--primary_text_font);
+    font-size: 18px;
+    font-weight: 300;
+    color: #7c8ca0;
+    padding-bottom: 10px;
+}
+
+/* slider */
+
+.left_arrow {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 78px;
+    width: 78px;
+    line-height: 78px;
+    text-align: center;
+    font-size: 36px;
+    cursor: pointer;
+    z-index: 1;
+    background-color: transparent;
+    color: #99a6b6;
+    border: 2px solid #99a6b6;
+    border-radius: 50%;
+}
+.right_arrow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 78px;
+    width: 78px;
+    line-height: 78px;
+    text-align: center;
+    font-size: 36px;
+    cursor: pointer;
+    z-index: 1;
+    background-color: transparent;
+    color: #99a6b6;
+    border: 2px solid #99a6b6;
+    border-radius: 50%;
+}
+
+.slick-dots {
+    margin-bottom: 50px;
+}
+.slick-dots li button:before {
+    font-size: 50px;
+    line-height: 18px;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    color: transparent;
+    border: 1px solid #7c8ca0;
+    border-radius: 50%;
+}
+.slick-dots li.slick-active button:before {
+    color: #7c8ca0;
+}
+/*========== testimonial area end =============*/
+
+/*========== team area start ==================*/
+.team {
+    background-color: #edeff1;
+}
+.team_main {
+    padding-top: 136px;
+    padding-bottom: 120px;
+}
+.team_heading h2 {
+    font-family: var(--primary_text_font);
+    font-size: 72px;
+    font-weight: 700;
+    color: var(--primary_heading_color);
+    padding-bottom: 10px;
+    text-align: center;
+}
+.team_content {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 88px;
+}
+.team_img {
+    max-width: 135px;
+    display: inline-flex;
+}
+.team_img img {
+    width: 100%;
+    border-radius: 50%;
+}
+.team_heading p {
+    font-family: var(--primary_text_font);
+    font-size: 36px;
+    font-weight: 300;
+    color: #7c8ca0;
+    text-align: center;
+}
+.team_desc h4 {
+    font-family: var(--primary_text_font);
+    font-size: 30px;
+    font-weight: 400;
+    color: #5d6981;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.team_desc p {
+    font-family: var(--primary_text_font);
+    font-size: 18px;
+    font-weight: 300;
+    color: #7c8ca0;
+    padding: 0 20px;
+}
+
+.team_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team_button a {
+    padding: 15px 30px;
+    background-color: #ff2d55;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 60px;
+    width: 230px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+/*========== team area end ===================*/
+
+/*========== map area start ===================*/
+.map_section {
+    background: url(../img/google_map.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.map_main {
+    position: relative;
+    padding: 295px 0;
+}
+.map_icon i {
+    height: 64px;
+    width: 64px;
+    color: #ff2d55;
+    font-size: 50px;
+    position: absolute;
+    top: 44%;
+    left: 49%;
+}
+
+/*========== map area end ===================*/
+
+/*========== footer area start ==============*/
+footer {
+    background-color: #0149a1;
+}
+.footer_main {
+    padding-top: 89px;
+    padding-bottom: 120px;
+}
+.footer_content ul li {
+    display: block;
+}
+.footer_content ul li a {
+    font-family: var(--primary_text_font);
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+.footer_bottom_content {
+    padding-top: 130px;
+    text-align: center;
+}
+.footer_bottom_content p {
+    font-family: var(--primary_text_font);
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffff;
+    padding: 0;
+    margin: 0;
+}
+/*========== footer area end ================*/
+
+
