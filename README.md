@@ -1,1 +1,1 @@
-# pax-html-template
+# pax-template-html-landing-page
